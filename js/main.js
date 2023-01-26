@@ -1,0 +1,1 @@
+console.log('Recursos staticos de Nginx');
