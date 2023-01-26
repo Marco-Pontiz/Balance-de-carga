@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "",
   "main": "server-fork.js",
+  "type": "module",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -18,6 +19,8 @@
   },
   "homepage": "https://github.com/Marco-Pontiz/Balance-de-carga#readme",
   "dependencies": {
-    "express": "^4.18.2"
+    "esm": "^3.2.25",
+    "express": "^4.18.2",
+    "pm2": "^5.2.2"
   }
 }
